@@ -2,9 +2,7 @@
 
 namespace App\Http\Resources\Country;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-
-class CountryCollection extends ResourceCollection
+class CountryCollection extends JsonResourceCollection
 {
     /**
      * Transform the resource collection into an array.

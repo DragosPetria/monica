@@ -2,9 +2,7 @@
 
 namespace App\Http\Resources\Settings\ContactFieldType;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-
-class ContactFieldTypeCollection extends ResourceCollection
+class ContactFieldTypeCollection extends JsonResourceCollection
 {
     /**
      * Transform the resource collection into an array.

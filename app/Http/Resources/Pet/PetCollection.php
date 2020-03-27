@@ -2,9 +2,7 @@
 
 namespace App\Http\Resources\Pet;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-
-class PetCollection extends ResourceCollection
+class PetCollection extends JsonResourceCollection
 {
     /**
      * Transform the resource collection into an array.

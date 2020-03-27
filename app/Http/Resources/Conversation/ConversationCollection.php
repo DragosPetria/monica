@@ -2,9 +2,7 @@
 
 namespace App\Http\Resources\Conversation;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-
-class ConversationCollection extends ResourceCollection
+class ConversationCollection extends JsonResourceCollection
 {
     /**
      * Transform the resource collection into an array.

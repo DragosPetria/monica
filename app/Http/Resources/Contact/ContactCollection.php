@@ -2,9 +2,7 @@
 
 namespace App\Http\Resources\Contact;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-
-class ContactCollection extends ResourceCollection
+class ContactCollection extends JsonResourceCollection
 {
     /**
      * Transform the resource collection into an array.

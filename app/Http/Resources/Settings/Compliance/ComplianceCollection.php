@@ -2,9 +2,7 @@
 
 namespace App\Http\Resources\Settings\Compliance;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-
-class ComplianceCollection extends ResourceCollection
+class ComplianceCollection extends JsonResourceCollection
 {
     /**
      * Transform the resource collection into an array.

@@ -2,9 +2,7 @@
 
 namespace App\Http\Resources\Activity;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-
-class ActivityCollection extends ResourceCollection
+class ActivityCollection extends JsonResourceCollection
 {
     /**
      * Transform the resource collection into an array.

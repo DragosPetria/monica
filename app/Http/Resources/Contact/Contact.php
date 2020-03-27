@@ -3,15 +3,15 @@
 namespace App\Http\Resources\Contact;
 
 use App\Helpers\DateHelper;
-use Illuminate\Http\Resources\Json\Resource;
 use App\Http\Resources\Tag\Tag as TagResource;
+use Illuminate\Http\Resources\Json\JsonResource;
 use App\Http\Resources\Note\Note as NoteResource;
 use App\Http\Resources\Address\Address as AddressResource;
 use App\Http\Resources\Contact\ContactShort as ContactShortResource;
 use App\Http\Resources\ContactField\ContactField as ContactFieldResource;
 use App\Http\Resources\Relationship\RelationshipShort as RelationshipShortResource;
 
-class Contact extends Resource
+class Contact extends JsonResource
 {
     /**
      * Transform the resource into an array.

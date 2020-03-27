@@ -2,9 +2,7 @@
 
 namespace App\Http\Resources\Settings\WebauthnKey;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-
-class WebauthnKeyCollection extends ResourceCollection
+class WebauthnKeyCollection extends JsonResourceCollection
 {
     /**
      * Transform the resource collection into an array.
